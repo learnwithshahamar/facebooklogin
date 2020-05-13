@@ -1,0 +1,67 @@
+body{
+    font-family: tahoma;
+}
+.header{
+    background: linear-gradient(to bottom, #4D68A1, #3B5998);
+    padding-top: 12px;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.row::before,
+.row::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.col-55{
+    width: 55%;
+    float: left;
+}
+.logo-area img{
+    width: 200px;
+    height: auto;
+}
+
+.col-45{
+    width: 45%;
+    float: right;
+}
+
+.login-area table td{
+    padding-left: 13px;
+}
+.login-area label{
+    color: #FFF;
+    font-size: 12px;
+}
+.login-area input[type='text'],
+.login-area input[type='password']{
+    width: 142px;
+    border: 1px solid #1d2a5b;
+    font-size: 12px;
+    height: 22.6px;
+    box-sizing: border-box;
+}
+.login-area input[type='submit']{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23.6px;
+}
+.login-area input[type='submit']:hover{
+    background: #365899;
+    cursor: pointer;
+}
+
+.login-area a{
+    color: #9CA0BB;
+    text-decoration: none;
+    font-size: 12px;
+}
+.login-area a:hover{
+    text-decoration: underline;
+}
